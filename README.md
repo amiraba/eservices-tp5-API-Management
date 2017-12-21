@@ -46,10 +46,12 @@ Reusing TP4 projects
 ![21](https://user-images.githubusercontent.com/23452983/34278705-c7769186-e6ac-11e7-964b-b70b5961bff1.PNG)
 
 ![22](https://user-images.githubusercontent.com/23452983/34278711-cdd24476-e6ac-11e7-9a8e-13c9ec1b549a.PNG)
+***
+The final output:
 
 ![23](https://user-images.githubusercontent.com/23452983/34278715-d60a4eae-e6ac-11e7-949b-c970fbc28f92.PNG)
 
-##Conclusion
+## Conclusion
 
 API management is highly recommendable for building solutions which reuse the existing software blocks.
 It allow us to handle the overall architecture of our application and decrease its complexity with a simple and ergonomic tool.
