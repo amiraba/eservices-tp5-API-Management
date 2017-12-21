@@ -1,7 +1,7 @@
 ## e-services TP5
 # API-Management
 
-### Familiarzation with API Workbench
+### **Familiarzation with API Workbench**
 
 RAML file
 on Atom
@@ -11,7 +11,7 @@ on Atom
 ![8](https://user-images.githubusercontent.com/23452983/34278528-ac46f38e-e6ab-11e7-9489-59839b17cb97.PNG)
 ***
 
-### Familiarzation with AnyPoint Studio
+### **Familiarzation with AnyPoint Studio**
 
 ![10](https://user-images.githubusercontent.com/23452983/34278570-f399312a-e6ab-11e7-8480-8c256e11bdf8.PNG)
 ***
