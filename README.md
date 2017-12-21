@@ -1,6 +1,8 @@
 ## e-services TP5
 # API-Management
 
+Original questions: https://liliasfaxi.github.io/TP-eServices/tp5/
+
 ## Familiarzation with API Workbench
 
 RAML file
