@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
+    <flow name="premiereapplicationFlow">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
+        <set-payload value="{
+  &quot;_embedded&quot;: {
+    &quot;products&quot;: [
+      {
+        &quot;name&quot;: &quot;Pencil&quot;,
+        &quot;_links&quot;: {
+          &quot;self&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/1&quot;
+          },
+          &quot;product&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/1&quot;
+          }
+        }
+      },
+      {
+        &quot;name&quot;: &quot;Book&quot;,
+        &quot;_links&quot;: {
+          &quot;self&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/2&quot;
+          },
+          &quot;product&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/2&quot;
+          }
+        }
+      },
+      {
+        &quot;name&quot;: &quot;Eraser&quot;,
+        &quot;_links&quot;: {
+          &quot;self&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/3&quot;
+          },
+          &quot;product&quot;: {
+            &quot;href&quot;: &quot;http://localhost:9999/product-service/products/3&quot;
+          }
+        }
+      }
+    ]
+  },
+  &quot;_links&quot;: {
+    &quot;self&quot;: {
+      &quot;href&quot;: &quot;http://localhost:9999/product-service/products{?page,size,sort}&quot;,
+      &quot;templated&quot;: true
+    },
+    &quot;profile&quot;: {
+      &quot;href&quot;: &quot;http://localhost:9999/product-service/profile/products&quot;
+    },
+    &quot;search&quot;: {
+      &quot;href&quot;: &quot;http://localhost:9999/product-service/products/search&quot;
+    }
+  },
+  &quot;page&quot;: {
+    &quot;size&quot;: 20,
+    &quot;totalElements&quot;: 3,
+    &quot;totalPages&quot;: 1,
+    &quot;number&quot;: 0
+  }
+}" doc:name="Set Payload"/>
+    </flow>
+</mule>
