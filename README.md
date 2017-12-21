@@ -11,6 +11,8 @@ on Atom
 ![8](https://user-images.githubusercontent.com/23452983/34278528-ac46f38e-e6ab-11e7-9489-59839b17cb97.PNG)
 ***
 
+
+
 ## Familiarzation with AnyPoint Studio
 
 ![10](https://user-images.githubusercontent.com/23452983/34278570-f399312a-e6ab-11e7-8480-8c256e11bdf8.PNG)
@@ -21,6 +23,9 @@ on Atom
 ***
 ![13](https://user-images.githubusercontent.com/23452983/34278612-43a9902e-e6ac-11e7-8cc6-a0160b562955.PNG)
 ***
+
+
+
 
 ## API for our products through APIKit
 
@@ -37,6 +42,9 @@ Reusing TP4 projects
 ![18](https://user-images.githubusercontent.com/23452983/34278665-8b37db12-e6ac-11e7-9a3c-fbc34e9fd236.PNG)
 ***
 
+
+
+
 ## Dynamically transforming our API
 
 ![19](https://user-images.githubusercontent.com/23452983/34278674-a08b8996-e6ac-11e7-81f1-3b9a917986d7.PNG)
@@ -52,6 +60,9 @@ The final output:
 
 ![23](https://user-images.githubusercontent.com/23452983/34278715-d60a4eae-e6ac-11e7-949b-c970fbc28f92.PNG)
 ***
+
+
+
 
 # Conclusion
 
